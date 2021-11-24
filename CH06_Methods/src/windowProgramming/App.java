@@ -13,16 +13,16 @@ public class App {
 		System.out.println("가로길이 "+w1.getWidth());
 		
 		w1.setHeight(600);
-		System.out.println(w1.getHeigth());
+		System.out.println("세로길이 "+w1.getHeigth());
 		
 		w1.setIsVisible(true);
-		System.out.println(w1.getIsVisible());
+		System.out.println("현재보임 "+w1.getIsVisible());
 		
 		w1.setTop(200);
-		System.out.println(w1.getTop());
+		System.out.println("위치top "+w1.getTop());
 		
 		w1.setLeft(400);
-		System.out.println(w1.getLeft());
+		System.out.println("위치left "+w1.getLeft());
 	}
 
 }
