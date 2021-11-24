@@ -7,8 +7,9 @@ public class App {
 		Calculater cal = new Calculater();
 		int number = 5;
 		int result = cal.square(number);
-		
-		System.out.println(result);
+		// 방법 위아래 두가지
+//		int result = cal.square(5);
+//		System.out.println(result);
 		
 		result = cal.plus(10, 10);
 		System.out.println(result);
@@ -24,3 +25,5 @@ public class App {
 	}
 
 }
+
+;

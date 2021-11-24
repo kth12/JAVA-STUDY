@@ -7,9 +7,9 @@ public class App {
 		Person p1 = new Person();
 		// p1.name = "펭수"; // 보안상 객체의 변수에 바로 접근하지 못함 
 		p1.setName("펭수");
-		System.out.println(p1.getName());
-	
 		p1.setAge(20);
+	
+		System.out.println(p1.getName());
 		System.out.println(p1.getAge());
 		
 		

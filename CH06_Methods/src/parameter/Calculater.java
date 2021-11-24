@@ -14,3 +14,4 @@ public class Calculater {
 		return x * y;
 	}
 }
+
