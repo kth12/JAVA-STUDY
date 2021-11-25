@@ -3,13 +3,13 @@ package returnValue;
 public class App {
 
 	public static void main(String[] args) {
-		// ¸®ÅÏ°ªÀÌ ÀÖ´Â ¸Ş¼Òµå»ç¿ë
+		// ë¦¬í„´ê°’ì´ ìˆëŠ” ë©”ì†Œë“œì‚¬ìš©
 		ReturnMethod r1 = new ReturnMethod();
 		
-		// r1.getAnimal(); À» cat º¯¼ö¿¡ ¸®ÅÏ => ReturnMethod Å¬·¡½º¿¡ void°¡ StringÀ¸·Î ¹Ù²ñ
+		// r1.getAnimal(); ì„ cat ë³€ìˆ˜ì— ë¦¬í„´ => ReturnMethod í´ë˜ìŠ¤ì— voidê°€ Stringìœ¼ë¡œ ë°”ë€œ
 		String cat = r1.getAnimal();
 		
-		System.out.println("Ä¹ º¯¼ö´Â : " + cat); 
+		System.out.println("ìº£ ë³€ìˆ˜ëŠ” : " + cat); 
 	}
 
 }

@@ -1,9 +1,9 @@
 package returnValue;
 
 public class ReturnMethod {
-	String getAnimal() { 	// ¸®ÅÏ°ªÀÌ ÀÖÀ»¶§(catÀÌ¶ó´Â º¯¼ö¿¡ ³ÖÀ½) void ¸¦ StringÀ¸·Î
-//		System.out.println("°í¾çÀÌ¸¦ ¸®ÅÏ");
-		return "°í¾çÀÌ";
+	String getAnimal() { 	// ë¦¬í„´ê°’ì´ ìˆì„ë•Œ(catì´ë¼ëŠ” ë³€ìˆ˜ì— ë„£ìŒ) void ë¥¼ Stringìœ¼ë¡œ
+//		System.out.println("ê³ ì–‘ì´ë¥¼ ë¦¬í„´");
+		return "ê³ ì–‘ì´";
 	}
 }
 

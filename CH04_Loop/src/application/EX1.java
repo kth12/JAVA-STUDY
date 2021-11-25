@@ -6,36 +6,36 @@ public class EX1 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("¿É¼ÇÀ» ¼±ÅÃ > ");
+		System.out.println("ì˜µì…˜ì„ ì„ íƒ > ");
 		int input = scanner.nextInt();
 		scanner.close();
 		
 		if (input == 1) {
-			System.out.println("Çï·Î¿ì");
+			System.out.println("í—¬ë¡œìš°");
 		}
 		else if (input == 2) {
-			System.out.println("¾È³ç?");
+			System.out.println("ì•ˆë…•?");
 		}
 		else if (input == 3) {
-			System.out.println("ÇÁ·Î±×·¥ Á¾·á");			
+			System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");			
 		}
 		else {
-			System.out.println("Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù.");
+			System.out.println("ì˜ëª»ëœ ì ‘ê·¼ì…ë‹ˆë‹¤.");
 		}
 		
-		//Switch case¹®À¸·Î ¼öÁ¤
+		//Switch caseë¬¸ìœ¼ë¡œ ìˆ˜ì •
 		switch(input) {
 		case 1: 
-			System.out.println("Çï·Î¿ì");
+			System.out.println("í—¬ë¡œìš°");
 			break;
 		case 2:
-			System.out.println("¾È³ç??");
+			System.out.println("ì•ˆë…•??");
 			break;
 		case 3:
-			System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+			System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 			break;
 		default :
-			System.out.println("Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù.");
+			System.out.println("ì˜ëª»ëœ ì ‘ê·¼ì…ë‹ˆë‹¤.");
 			break;			
 			
 		}

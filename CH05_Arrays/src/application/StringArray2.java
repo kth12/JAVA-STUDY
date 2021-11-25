@@ -3,22 +3,22 @@ package application;
 public class StringArray2 {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­Àº ÂüÁ¶ ÀÚ·áÇü, ÂüÁ¶ º¯¼ö(reference variable)Àº ÁÖ¼Ò°ªÀ» °¡Áø´Ù.
-//		String text = null; // ³Î °ªÀº ÁÖ¼Ò°ªÀÌ ¾ø´Ù , ½ÇÁ¦ °ªÀ» ¸¸µé¾úÀ»¶§ ÁÖ¼Ò¸¸ °¡Áø text¿¡ °ªÀ» ³Ö´Â ÂüÁ¶º¯¼ö
-//		// int x = null; ±âº» ÀÚ·áÇü¿¡´Â ³Î°ªÀ» ÀÔ·ÂºÒ°¡ (³Î°ªÀº ÁÖ¼Ò°¡ ¾ø´Ù´Â ¶æ)
-//		//text = new String("Çï·Î¿ì");  // ¹è¿­À» ¾µ¶§
-//		text = "Çï·Î¿ì";		
-//		System.out.println(text); // ÁÖ¼Ò°ª = Çï·Î¿ì
+		// ë¬¸ìì—´ì€ ì°¸ì¡° ìë£Œí˜•, ì°¸ì¡° ë³€ìˆ˜(reference variable)ì€ ì£¼ì†Œê°’ì„ ê°€ì§„ë‹¤.
+//		String text = null; // ë„ ê°’ì€ ì£¼ì†Œê°’ì´ ì—†ë‹¤ , ì‹¤ì œ ê°’ì„ ë§Œë“¤ì—ˆì„ë•Œ ì£¼ì†Œë§Œ ê°€ì§„ textì— ê°’ì„ ë„£ëŠ” ì°¸ì¡°ë³€ìˆ˜
+//		// int x = null; ê¸°ë³¸ ìë£Œí˜•ì—ëŠ” ë„ê°’ì„ ì…ë ¥ë¶ˆê°€ (ë„ê°’ì€ ì£¼ì†Œê°€ ì—†ë‹¤ëŠ” ëœ»)
+//		//text = new String("í—¬ë¡œìš°");  // ë°°ì—´ì„ ì“¸ë•Œ
+//		text = "í—¬ë¡œìš°";		
+//		System.out.println(text); // ì£¼ì†Œê°’ = í—¬ë¡œìš°
 		
 		String[] texts = null;
-		System.out.println(texts);		// ÁÖ¼Ò°ª = null
-		texts = new String[3];			// ¹è¿­ (¹®ÀÚ¿­3Ä­)À» ½ÇÁ¦ »ı¼ºÇØ¼­ texts¿¡ ÁÖ¼ÒÀÔ·Â
-		System.out.println(texts);		// ÁÖ¼Ò ???
-		System.out.println(texts[0]);	// null, ¹®ÀÚ¿­¿¡ ÁÖ¼Ò°ªÀÌ ¾ø´Ù
+		System.out.println(texts);		// ì£¼ì†Œê°’ = null
+		texts = new String[3];			// ë°°ì—´ (ë¬¸ìì—´3ì¹¸)ì„ ì‹¤ì œ ìƒì„±í•´ì„œ textsì— ì£¼ì†Œì…ë ¥
+		System.out.println(texts);		// ì£¼ì†Œ ???
+		System.out.println(texts[0]);	// null, ë¬¸ìì—´ì— ì£¼ì†Œê°’ì´ ì—†ë‹¤
 		
-		texts[0] = new String("ÇÏÀÌ!");
-		texts[1] = "¾È³ç";
-		texts[2] = "±Â¹ÙÀÌ";
+		texts[0] = new String("í•˜ì´!");
+		texts[1] = "ì•ˆë…•";
+		texts[2] = "êµ¿ë°”ì´";
 		
 		for(String w : texts) {
 			System.out.println(w);

@@ -3,18 +3,18 @@ package application;
 public class LoopArray {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­ Å¸ÀÔÀ¸·Î ¸¸µç ¹è¿­
+		// ë¬¸ìì—´ íƒ€ì…ìœ¼ë¡œ ë§Œë“  ë°°ì—´
 		
-		String[] animals = {"°í¾çÀÌ","°­¾ÆÁö","»çÀÚ","ÇÏ¸¶","µÅÁö","±â¸°"};
+		String[] animals = {"ê³ ì–‘ì´","ê°•ì•„ì§€","ì‚¬ì","í•˜ë§ˆ","ë¼ì§€","ê¸°ë¦°"};
 		
 //		System.out.println(animals[0]);
 //		System.out.println(animals[1]);
 //		System.out.println(animals[2]);
 //		System.out.println(animals[3]);
 
-		// ¹İº¹¹® for¹® ÀÎµ¦½º ¹øÈ£¸¦ i·Î , ¹è¿­.length´Â ¹è¿­ÀÇ »çÀÌÁî(Å©±â)¸¦ ¾Ë·ÁÁØ´Ù.
+		// ë°˜ë³µë¬¸ forë¬¸ ì¸ë±ìŠ¤ ë²ˆí˜¸ë¥¼ ië¡œ , ë°°ì—´.lengthëŠ” ë°°ì—´ì˜ ì‚¬ì´ì¦ˆ(í¬ê¸°)ë¥¼ ì•Œë ¤ì¤€ë‹¤.
 		for (int i = 0; i<animals.length; i++) {
-			System.out.printf("ÀÎµ¦½º ¹øÈ£ %d¹øÀÌ°í µ¿¹°Àº %s \n",i,animals[i]);			
+			System.out.printf("ì¸ë±ìŠ¤ ë²ˆí˜¸ %dë²ˆì´ê³  ë™ë¬¼ì€ %s \n",i,animals[i]);			
 		}
 	}
 

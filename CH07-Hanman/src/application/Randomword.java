@@ -3,59 +3,59 @@ package application;
 import java.util.Random;
 
 public class Randomword {
-	// ½ºÆäÀÌ½º¹Ù·Î ¶ç¾îÁø ´Ü¾îµéÀ» ¹®ÀÚ¿­·Î str¿¡ ÀúÀå
+	// ìŠ¤í˜ì´ìŠ¤ë°”ë¡œ ë„ì–´ì§„ ë‹¨ì–´ë“¤ì„ ë¬¸ìì—´ë¡œ strì— ì €ì¥
 	private String str = "concept software drama person introduction explanation cheek wedding requirement failure arrival year instance shopping advertising argument presentation meal art assistance perspective gene history instruction complaint mixture quantity computer speaker thanks independence chocolate inflation baseball desk owner administration media Click to save this word! photo blood politics girl product injury satisfaction society leadership member thought disaster";
-	private String[] words = str.split(" "); // ¹®ÀÚ¿­À» ½ºÆäÀÌ½º·Î Àß¶ó¼­ ¹è¿­¿¡ ´Ü¾î·Î ÀÔ·Â
+	private String[] words = str.split(" "); // ë¬¸ìì—´ì„ ìŠ¤í˜ì´ìŠ¤ë¡œ ì˜ë¼ì„œ ë°°ì—´ì— ë‹¨ì–´ë¡œ ì…ë ¥
 	
-	private String selectWord; // ·£´ıÀ¸·Î ¼±ÅÃµÈ ´Ü¾î
-	private char[] characters; //¹®ÀÚ¹è¿­ ¼±¾ğ(Ã¶ÀÚ¸¦ ¸ÂÃß¸é ÀúÀå)
+	private String selectWord; // ëœë¤ìœ¼ë¡œ ì„ íƒëœ ë‹¨ì–´
+	private char[] characters; //ë¬¸ìë°°ì—´ ì„ ì–¸(ì² ìë¥¼ ë§ì¶”ë©´ ì €ì¥)
 	private Random random = new Random();
 	public Randomword() {
-		// »ı¼ºÀÚ¿¡ ·£´ı ´Ü¾î¸¦ ¼±ÅÃ
-		selectWord = words[ random.nextInt(words.length)]; //1. ·£´ıÀ¸·Î ¼±ÅÃ¼öÁ¤
-		characters = new char[selectWord.length()]; //¼±ÅÃ´Ü¾îÀÇ ±æÀÌ¸¸Å­ ¹®ÀÚ¹è¿­ Å©±â·Î »ı¼º
+		// ìƒì„±ìì— ëœë¤ ë‹¨ì–´ë¥¼ ì„ íƒ
+		selectWord = words[ random.nextInt(words.length)]; //1. ëœë¤ìœ¼ë¡œ ì„ íƒìˆ˜ì •
+		characters = new char[selectWord.length()]; //ì„ íƒë‹¨ì–´ì˜ ê¸¸ì´ë§Œí¼ ë¬¸ìë°°ì—´ í¬ê¸°ë¡œ ìƒì„±
 	}
-	public void getWords() { //ÇöÀç words¹è¿­¿¡ ÀÖ´Â ÀüÃ¼ ´Ü¾î¸¦ Ãâ·Â
+	public void getWords() { //í˜„ì¬ wordsë°°ì—´ì— ìˆëŠ” ì „ì²´ ë‹¨ì–´ë¥¼ ì¶œë ¥
 		for(String w : words) {
 			System.out.println(w);
 		}
 	}
 	public String toString() {
-		// ´Ü¾î¸¦ _·Î Ãâ·ÂÇÑ´Ù.
+		// ë‹¨ì–´ë¥¼ _ë¡œ ì¶œë ¥í•œë‹¤.
 //		String text = "";
 		StringBuilder sb = new StringBuilder();
-//		characters[3] = 'x'; //Å×½ºÆ®
+//		characters[3] = 'x'; //í…ŒìŠ¤íŠ¸
 		
 		for(char c : characters) {
 			
-//			if(c=='\u0000') { //¹®ÀÚ('')ÀÇ ÃÊ±â°ªÀÌ¸é ¾ÆÁ÷ ¸ÂÃßÁö ¸øÇÑ ¹®ÀÚ
+//			if(c=='\u0000') { //ë¬¸ì('')ì˜ ì´ˆê¸°ê°’ì´ë©´ ì•„ì§ ë§ì¶”ì§€ ëª»í•œ ë¬¸ì
 //				sb.append('_');
 //			}
 //			else {
-//				sb.append('c'); //¸ÂÃá ¹®ÀÚÀÏ °æ¿ì
+//				sb.append('c'); //ë§ì¶˜ ë¬¸ìì¼ ê²½ìš°
 //			}
 			
-			sb.append(c=='\u0000' ? '_' : c); // ¸ø¸ÂÃß¸é _ ¸ÂÃá°Ç c
-			sb.append(' '); //Ã¶ÀÚ¸¦ ÇÑÄ­¾¿ ½ºÆäÀÌ½º¹Ù
+			sb.append(c=='\u0000' ? '_' : c); // ëª»ë§ì¶”ë©´ _ ë§ì¶˜ê±´ c
+			sb.append(' '); //ì² ìë¥¼ í•œì¹¸ì”© ìŠ¤í˜ì´ìŠ¤ë°”
 		}
-//		System.out.println(selectWord); //Á¤´äÃâ·Â(Å×½ºÆ®¿ë)
-		return sb.toString(); //¼±ÅÃµÈ ·£´ı ´Ü¾î¸¦ °¡Á®¿È
+//		System.out.println(selectWord); //ì •ë‹µì¶œë ¥(í…ŒìŠ¤íŠ¸ìš©)
+		return sb.toString(); //ì„ íƒëœ ëœë¤ ë‹¨ì–´ë¥¼ ê°€ì ¸ì˜´
 	}
 	public void addGuess(char c) {
-		// ³Ñ¾î¿Â ¹®ÀÚ¸¦ rja»çÇØ¼­ ¼±ÅÂ¤¡´Ü¾î¿¡ ÀÌÀÖÀ¸¸é characters¹è¿­¿¡ ÀúÀå
-		for(int i = 0; i < selectWord.length(); i++) { //´Ü¾î ±æÀÌ¸¸Å­ ¹İº¹
+		// ë„˜ì–´ì˜¨ ë¬¸ìë¥¼ rjaì‚¬í•´ì„œ ì„ íƒœã„±ë‹¨ì–´ì— ì´ìˆìœ¼ë©´ charactersë°°ì—´ì— ì €ì¥
+		for(int i = 0; i < selectWord.length(); i++) { //ë‹¨ì–´ ê¸¸ì´ë§Œí¼ ë°˜ë³µ
 			if(c == selectWord.charAt(i)) {
 				characters[i] = c;
 			}
 		}
 	}
 	public boolean inCompleted() {
-		// Ã¶ÀÚ¸¦ ´Ù ¸ÂÃè´ÂÁö Ã¼Å©ÇØ¼­ true, false·Î ¸®ÅÏ
-		for(char c : characters) { // ´Ü¾î ÀüÃ¼ Ã¶ÀÚ ¹İº¹°Ë»ç
+		// ì² ìë¥¼ ë‹¤ ë§ì·„ëŠ”ì§€ ì²´í¬í•´ì„œ true, falseë¡œ ë¦¬í„´
+		for(char c : characters) { // ë‹¨ì–´ ì „ì²´ ì² ì ë°˜ë³µê²€ì‚¬
 			if(c=='\u0000') {
-				return false; //¾ÆÁ÷ ¸ÂÃç¾ßÇÒ ¹®Á¦°¡ ÀÖÀ½
+				return false; //ì•„ì§ ë§ì¶°ì•¼í•  ë¬¸ì œê°€ ìˆìŒ
 			}
 		}
-		return true; // ´Ù ¸ÂÃã
+		return true; // ë‹¤ ë§ì¶¤
 	}
 }

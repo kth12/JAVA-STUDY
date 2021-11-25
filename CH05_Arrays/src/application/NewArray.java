@@ -3,10 +3,10 @@ package application;
 public class NewArray {
 
 	public static void main(String[] args) {
-		// new Å°¿öµå·Î ¹è¿­À» »ı¼ºÇÑ´Ù.
-		// int[] n = {1,2,3}; ÃÊ±â°ªÀ» ¹Ù·Î ³Ö´Â ¹ı ¸®ÅÍ·²ÀÌ¶ó°í ÇÑ´Ù.
-		int[] numbers; 		// Á¤¼öÇü ¹è¿­ numbers ¼±¾ğ
-		numbers = new int[3]; //Á¤¼öÇü 3°³ÀÇ ¹è¿­ ,°ªÀÌ ¾øÀ½ ¸ğµÎ0
+		// new í‚¤ì›Œë“œë¡œ ë°°ì—´ì„ ìƒì„±í•œë‹¤.
+		// int[] n = {1,2,3}; ì´ˆê¸°ê°’ì„ ë°”ë¡œ ë„£ëŠ” ë²• ë¦¬í„°ëŸ´ì´ë¼ê³  í•œë‹¤.
+		int[] numbers; 		// ì •ìˆ˜í˜• ë°°ì—´ numbers ì„ ì–¸
+		numbers = new int[3]; //ì •ìˆ˜í˜• 3ê°œì˜ ë°°ì—´ ,ê°’ì´ ì—†ìŒ ëª¨ë‘0
 		
 		numbers[0]=99;
 		numbers[1]=999;
@@ -19,7 +19,7 @@ public class NewArray {
 			total = total + numbers[i];
 		}
 
-		System.out.println("ÃÑ ÇÕ°è´Â : " + total); //¹ÛÀ¸·Î »©Áà¾ß ÃÑ ´õÇÑ °ª ÇÑ°³¸¸ ³ª¿È
+		System.out.println("ì´ í•©ê³„ëŠ” : " + total); //ë°–ìœ¼ë¡œ ë¹¼ì¤˜ì•¼ ì´ ë”í•œ ê°’ í•œê°œë§Œ ë‚˜ì˜´
 	}
 
 }

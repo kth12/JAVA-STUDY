@@ -3,14 +3,14 @@ package instanceVariable;
 public class App {
 
 	public static void main(String[] args) {
-		// °°Àº ÆĞÅ°Áö ¾È¿¡ ÀÖ´Â Person Å¬·¡½º¸¦ »ç¿ëÇÑ´Ù.
-		// ½ºÄ³³Ê¸¦ »ç¿ëÇÏ·Á¸é ½ºÄ³³Ê Å¬·¡½º¸¦ import ÇØ¾ßÇÔ
+		// ê°™ì€ íŒ¨í‚¤ì§€ ì•ˆì— ìˆëŠ” Person í´ë˜ìŠ¤ë¥¼ ì‚¬ìš©í•œë‹¤.
+		// ìŠ¤ìºë„ˆë¥¼ ì‚¬ìš©í•˜ë ¤ë©´ ìŠ¤ìºë„ˆ í´ë˜ìŠ¤ë¥¼ import í•´ì•¼í•¨
 		Person p1 = new Person();
-		p1.name = "Æë¼ö";
+		p1.name = "í­ìˆ˜";
 		p1.age = 7;
 		
 		Person p2 = new Person();
-		p2.name = "±æµ¿";
+		p2.name = "ê¸¸ë™";
 		p2.age = 17;
 		
 		System.out.println(p1.name);
@@ -18,7 +18,7 @@ public class App {
 		System.out.println(p2.name);
 		System.out.println(p2.age);
 
-		// Person.name = "È«±æµ¿"; »ç¿ëºÒ°¡
+		// Person.name = "í™ê¸¸ë™"; ì‚¬ìš©ë¶ˆê°€
 	}
 
 }

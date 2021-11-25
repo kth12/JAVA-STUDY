@@ -3,7 +3,7 @@ package application;
 public class IntArray {
 
 	public static void main(String[] args) {
-		// ¹è¿­Àº °°Àº Å¸ÀÔÀÇ ¿©·¯ º¯¼ö¸¦ ÇÏ³ª·Î ¹­Àº 
+		// ë°°ì—´ì€ ê°™ì€ íƒ€ì…ì˜ ì—¬ëŸ¬ ë³€ìˆ˜ë¥¼ í•˜ë‚˜ë¡œ ë¬¶ì€ 
 
 	}
 

@@ -1,22 +1,22 @@
 package test;
 
-public class TernaryCondition { // »ïÇ× Á¶°Ç ¿¬»êÀÚ
+public class TernaryCondition { // ì‚¼í•­ ì¡°ê±´ ì—°ì‚°ìž
 
 	public static void main(String[] args) {
-		// Á¶°Ç ? A : B ( Á¶°ÇÀÌ ÂüÀÌ¸é A ¾Æ´Ï¸é BÀÌ´Ù)
-		System.out.println(true ? "Âü":"¾Æ´Ô");
-		System.out.println(false ? "Âü":"¾Æ´Ô");
+		// ì¡°ê±´ ? A : B ( ì¡°ê±´ì´ ì°¸ì´ë©´ A ì•„ë‹ˆë©´ Bì´ë‹¤)
+		System.out.println(true ? "ì°¸":"ì•„ë‹˜");
+		System.out.println(false ? "ì°¸":"ì•„ë‹˜");
 	
 		int n = 99;
-		n = n > 100 ? 100 : n; // 100º¸´Ù Å©¸é 100Ãâ·Â ¾Æ´Ï¸é n
+		n = n > 100 ? 100 : n; // 100ë³´ë‹¤ í¬ë©´ 100ì¶œë ¥ ì•„ë‹ˆë©´ n
 		System.out.println(n);
 		
 		int[] values = {6, 3, 92, 64, 17};
-		int max = 0; // ÃÖ´ë°ª
+		int max = 0; // ìµœëŒ€ê°’
 		
 		for(int val : values) {
 //			if (val > max) {
-//				max = val; //¸Æ½º°ªº¸´Ù val°¡ Å©¸é val°ªÀ» ¸Æ½º¿¡ ³Ö´Â´Ù.
+//				max = val; //ë§¥ìŠ¤ê°’ë³´ë‹¤ valê°€ í¬ë©´ valê°’ì„ ë§¥ìŠ¤ì— ë„£ëŠ”ë‹¤.
 //			}
 			max = val > max ? val : max;
 		}

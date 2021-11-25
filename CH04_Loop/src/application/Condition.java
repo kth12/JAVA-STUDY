@@ -2,11 +2,11 @@ package application;
 public class Condition {
 
 	public static void main(String[] args) {
-		//Á¶°Ç¹®
+		//ì¡°ê±´ë¬¸
 		int counter = 0;
 		
 		while(counter <= 10) {
-		System.out.printf("Ä«¿îÅÍ : %d \n",counter);
+		System.out.printf("ì¹´ìš´í„° : %d \n",counter);
 		counter = counter +1;
 		}
 	}

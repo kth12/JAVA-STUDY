@@ -3,10 +3,10 @@ package school;
 public class Student {
 	private String name;
 	private int age;
-	private boolean isVisible; // ÁıÃ¼ true, ¿ø°İ false
+	private boolean isVisible; // ì§‘ì²´ true, ì›ê²© false
 	private double temperature;
 	
-	//»ı¼ºÀÚ
+	//ìƒì„±ì
 	public Student(String name, int age) {
 		isVisible = true;
 		temperature = 0.0;
@@ -15,14 +15,14 @@ public class Student {
 	}
 	
 
-	// toString ¸Ş¼Òµå
+	// toString ë©”ì†Œë“œ
 	@Override
 	public String toString() {
-		return "ÇĞ»ı [ÀÌ¸§=" + name + ", ³ªÀÌ=" + age + ", ÁıÃ¼=" + isVisible + ", ¿Âµµ=" + temperature
+		return "í•™ìƒ [ì´ë¦„=" + name + ", ë‚˜ì´=" + age + ", ì§‘ì²´=" + isVisible + ", ì˜¨ë„=" + temperature
 					+ "]";
 	}
 	
-	// ÀÚµ¿¿Ï¼º±â´ÉÀ¸·Î getter setter ¸Ş¼­µå ¿Ï¼º
+	// ìë™ì™„ì„±ê¸°ëŠ¥ìœ¼ë¡œ getter setter ë©”ì„œë“œ ì™„ì„±
 	public String getName() {
 		return name;
 	}	

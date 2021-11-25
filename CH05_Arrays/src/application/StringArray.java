@@ -3,17 +3,17 @@ package application;
 public class StringArray {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­ Å¸ÀÔÀ¸·Î ¸¸µç ¹è¿­
+		// ë¬¸ìì—´ íƒ€ì…ìœ¼ë¡œ ë§Œë“  ë°°ì—´
 		
-		String[] animals = {"°í¾çÀÌ","°­¾ÆÁö","»çÀÚ","ÇÏ¸¶"};
+		String[] animals = {"ê³ ì–‘ì´","ê°•ì•„ì§€","ì‚¬ì","í•˜ë§ˆ"};
 		
 		System.out.println(animals[0]);
 		System.out.println(animals[1]);
 		System.out.println(animals[2]);
 		System.out.println(animals[3]);
 
-		// ¹è¿­¾ÈÀÇ °ªÀ» ¹Ù²Ù´Â ¹æ¹ı
-		animals[0] = "´ß";
+		// ë°°ì—´ì•ˆì˜ ê°’ì„ ë°”ê¾¸ëŠ” ë°©ë²•
+		animals[0] = "ë‹­";
 		
 		System.out.println(animals[0]);
 		System.out.println(animals[1]);

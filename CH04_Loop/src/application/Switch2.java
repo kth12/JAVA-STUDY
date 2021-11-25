@@ -5,25 +5,25 @@ import java.util.Scanner;
 public class Switch2 {
 
 	public static void main(String[] args) {
-		// Switch¹® ¹®ÀÚ¿­ ÀÔ·Â
+		// Switchë¬¸ ë¬¸ìì—´ ì…ë ¥
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("°è¼ÓÁøÇàÇÏ°Ú½À´Ï±î? (y/n) : ");
-		String input = scanner.nextLine(); // ¹®ÀÚ¿­ ÀÔ·Â½Ã nextline()
+		System.out.print("ê³„ì†ì§„í–‰í•˜ê² ìŠµë‹ˆê¹Œ? (y/n) : ");
+		String input = scanner.nextLine(); // ë¬¸ìì—´ ì…ë ¥ì‹œ nextline()
 		scanner.close();
 		
 		switch(input) {
 		case "y": 
-			System.out.println("°è¼Ó ÁøÇàÇÕ´Ï´Ù");
+			System.out.println("ê³„ì† ì§„í–‰í•©ë‹ˆë‹¤");
 			break; 
 		
 		case "n": 
-			System.out.println("Á¾·áÇÕ´Ï´Ù");
+			System.out.println("ì¢…ë£Œí•©ë‹ˆë‹¤");
 			break; 
 			
-		default: // else¿Í °°À½ À§ÀÇ ÄÉÀÌ½º¿¡ ¸Â´Â°ÍÀÌ ¾øÀ»¶§ ½ÇÇà
-			System.out.println("Àß¸òµÈ ÀÔ·ÂÀÔ´Ï´Ù.");
-			break; //Ç×»ó ÄÉÀÌ½ºÇÏ³ª ³¡¿¡ breakÀÛ¼º
+		default: // elseì™€ ê°™ìŒ ìœ„ì˜ ì¼€ì´ìŠ¤ì— ë§ëŠ”ê²ƒì´ ì—†ì„ë•Œ ì‹¤í–‰
+			System.out.println("ì˜ëª«ëœ ì…ë ¥ì…ë‹ˆë‹¤.");
+			break; //í•­ìƒ ì¼€ì´ìŠ¤í•˜ë‚˜ ëì— breakì‘ì„±
 		}
 	}
 

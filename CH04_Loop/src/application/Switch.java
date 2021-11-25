@@ -3,26 +3,26 @@ package application;
 public class Switch {
 
 	public static void main(String[] args) {
-		// Switch¹®
+		// Switchë¬¸
 		int option = 0;
 		
 		switch(option) {
-		case 0: // ¿É¼Çº¯¼ö°¡ ÄÉÀÌ½º 0°ú °°À»¶§
-			System.out.println("¿É¼Ç 0 ¼±ÅÃ");
-			System.out.println("ÄÉÀÌ½º 0 ¼±ÅÃ");
-			break; //Ç×»ó ÄÉÀÌ½ºÇÏ³ª ³¡¿¡ breakÀÛ¼º
+		case 0: // ì˜µì…˜ë³€ìˆ˜ê°€ ì¼€ì´ìŠ¤ 0ê³¼ ê°™ì„ë•Œ
+			System.out.println("ì˜µì…˜ 0 ì„ íƒ");
+			System.out.println("ì¼€ì´ìŠ¤ 0 ì„ íƒ");
+			break; //í•­ìƒ ì¼€ì´ìŠ¤í•˜ë‚˜ ëì— breakì‘ì„±
 		
-		case 1: // ¿É¼Çº¯¼ö°¡ ÄÉÀÌ½º 0°ú °°À»¶§
-			System.out.println("¿É¼Ç 1 ¼±ÅÃ");
-			break; //Ç×»ó ÄÉÀÌ½ºÇÏ³ª ³¡¿¡ breakÀÛ¼º
+		case 1: // ì˜µì…˜ë³€ìˆ˜ê°€ ì¼€ì´ìŠ¤ 0ê³¼ ê°™ì„ë•Œ
+			System.out.println("ì˜µì…˜ 1 ì„ íƒ");
+			break; //í•­ìƒ ì¼€ì´ìŠ¤í•˜ë‚˜ ëì— breakì‘ì„±
 			
-		case 10:// ¿É¼Çº¯¼ö°¡ ÄÉÀÌ½º 10°ú °°À»¶§
-			System.out.println("ÇÁ·Î±×·¥ Á¾·á..");
-			break; //Ç×»ó ÄÉÀÌ½ºÇÏ³ª ³¡¿¡ breakÀÛ¼º
+		case 10:// ì˜µì…˜ë³€ìˆ˜ê°€ ì¼€ì´ìŠ¤ 10ê³¼ ê°™ì„ë•Œ
+			System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ..");
+			break; //í•­ìƒ ì¼€ì´ìŠ¤í•˜ë‚˜ ëì— breakì‘ì„±
 			
-		default: // ¿É¼Çº¯¼ö°¡ ÄÉÀÌ½º 0°ú °°À»¶§
-			System.out.println("Àß¸òµÈ ¿É¼Ç¹øÈ£.");
-			break; //Ç×»ó ÄÉÀÌ½ºÇÏ³ª ³¡¿¡ breakÀÛ¼º
+		default: // ì˜µì…˜ë³€ìˆ˜ê°€ ì¼€ì´ìŠ¤ 0ê³¼ ê°™ì„ë•Œ
+			System.out.println("ì˜ëª«ëœ ì˜µì…˜ë²ˆí˜¸.");
+			break; //í•­ìƒ ì¼€ì´ìŠ¤í•˜ë‚˜ ëì— breakì‘ì„±
 		}
 	}
 

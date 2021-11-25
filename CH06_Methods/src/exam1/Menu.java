@@ -1,9 +1,9 @@
 package exam1;
 
 public class Menu {
-	String[] option = {"¾ÆÀÌÅÛ º¸±â","¾ÆÀÌÅÛ Ãß°¡","¾ÆÀÌÅÛ »èÁ¦","Á¾·á"};
+	String[] option = {"ì•„ì´í…œ ë³´ê¸°","ì•„ì´í…œ ì¶”ê°€","ì•„ì´í…œ ì‚­ì œ","ì¢…ë£Œ"};
 	
-	void display() { // ¿É¼Ç ¸Ş´ºµéÀ» Ãâ·ÂÇÑ´Ù
+	void display() { // ì˜µì…˜ ë©”ë‰´ë“¤ì„ ì¶œë ¥í•œë‹¤
 		for(int i=0; i<option.length; i++) {
 			System.out.printf("%d. %s \n",i,option[i]);
 		}

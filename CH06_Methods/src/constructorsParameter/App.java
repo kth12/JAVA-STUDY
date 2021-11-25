@@ -3,14 +3,14 @@ package constructorsParameter;
 public class App {
 
 	public static void main(String[] args) {
-		// »ı¼ºÀÚ : Å¬·¡½ºÀÇ Æ¯º°ÇÑ ¸Ş¼Òµå
-		Person p1 = new Person("Æë¼ö",120.0);
-		Person p2 = new Person("±æµ¿",172.5);
-		Person p3 = new Person();	// ÀÔ·ÂÀ» ¾ÈÇÏ¸é public Person(){ÃÊ±â°ª} ¼³Á¤ÇÑ°Ô ³ª¿Â´Ù
+		// ìƒì„±ì : í´ë˜ìŠ¤ì˜ íŠ¹ë³„í•œ ë©”ì†Œë“œ
+		Person p1 = new Person("í­ìˆ˜",120.0);
+		Person p2 = new Person("ê¸¸ë™",172.5);
+		Person p3 = new Person();	// ì…ë ¥ì„ ì•ˆí•˜ë©´ public Person(){ì´ˆê¸°ê°’} ì„¤ì •í•œê²Œ ë‚˜ì˜¨ë‹¤
 		
-//		System.out.printf("ÀÌ¸§ : %s, Å° : %.1f \n",p1.getName(),p1.getHeight());
-//		System.out.printf("ÀÌ¸§ : %s, Å° : %.1f \n",p2.getName(),p2.getHeight());
-//		System.out.printf("ÀÌ¸§ : %s, Å° : %.1f \n",p3.getName(),p3.getHeight());
+//		System.out.printf("ì´ë¦„ : %s, í‚¤ : %.1f \n",p1.getName(),p1.getHeight());
+//		System.out.printf("ì´ë¦„ : %s, í‚¤ : %.1f \n",p2.getName(),p2.getHeight());
+//		System.out.printf("ì´ë¦„ : %s, í‚¤ : %.1f \n",p3.getName(),p3.getHeight());
 	
 		System.out.println(p1.toString());
 		System.out.println(p2.toString());

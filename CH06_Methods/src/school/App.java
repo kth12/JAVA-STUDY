@@ -3,18 +3,18 @@ package school;
 public class App {
 
 	public static void main(String[] args) {
-		Student s1 = new Student("Ã¶¼ö",34);
-		Student s2 = new Student("¹Ì¿µ",23);
-		Student s3 = new Student("ÇÑ³ª",49);
-		Student s4 = new Student("È¿½Å",26);
+		Student s1 = new Student("ì² ìˆ˜",34);
+		Student s2 = new Student("ë¯¸ì˜",23);
+		Student s3 = new Student("í•œë‚˜",49);
+		Student s4 = new Student("íš¨ì‹ ",26);
 		
-		s1.setVisible(false);	// Ã¶¼ö´Â ¿ø°İ, ¿ÂµµÃøÁ¤ ¾ÈÇÔ
+		s1.setVisible(false);	// ì² ìˆ˜ëŠ” ì›ê²©, ì˜¨ë„ì¸¡ì • ì•ˆí•¨
 		
-		s2.setTemperature(35.5);	// ±æµ¿Àº ÁıÃ¼, ¿Âµµ 35.5
+		s2.setTemperature(35.5);	// ê¸¸ë™ì€ ì§‘ì²´, ì˜¨ë„ 35.5
 		
-		s3.setTemperature(36.5);	// ÇÑ³ª´Â ÁıÃ¼, ¿Âµµ 36.6
+		s3.setTemperature(36.5);	// í•œë‚˜ëŠ” ì§‘ì²´, ì˜¨ë„ 36.6
 		
-		s4.setVisible(false);	// È¿½Åµµ ¿ø°İ
+		s4.setVisible(false);	// íš¨ì‹ ë„ ì›ê²©
 
 		System.out.println(s1.toString());
 		System.out.println(s2.toString());

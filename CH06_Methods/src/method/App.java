@@ -5,13 +5,13 @@ public class App {
 	public static void main(String[] args) {
 		
 		Person p1 = new Person();
-		// ÀÎ½ºÅÏ½º º¯¼öÀÇ °ªÀÌ ¾øÀ»¶§ ÀÚµ¿À¸·Î 0,null ÃÊ±âÈ­ µÊ 
+		// ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì˜ ê°’ì´ ì—†ì„ë•Œ ìë™ìœ¼ë¡œ 0,null ì´ˆê¸°í™” ë¨ 
 		System.out.println(p1.name);
 		System.out.println(p1.age);
 		
-		p1.sayHello(); // ¸Ş¼Òµå(Å¬·¡½º ¾ÈÀÇ ¸¸µç ÇÔ¼ö¸¦ ¸Ş¼Òµå) È£Ãâ
+		p1.sayHello(); // ë©”ì†Œë“œ(í´ë˜ìŠ¤ ì•ˆì˜ ë§Œë“  í•¨ìˆ˜ë¥¼ ë©”ì†Œë“œ) í˜¸ì¶œ
 		
-		p1.name = "Æë¼ö";
+		p1.name = "í­ìˆ˜";
 		p1.age = 7; 
 		
 //		System.out.println(p1.name);
@@ -20,7 +20,7 @@ public class App {
 		p1.sayHello();
 		
 		Person p2 = new Person();
-		p2.name = "¶óÀÌ¾ğ";
+		p2.name = "ë¼ì´ì–¸";
 		p2.age = 11;
 		
 		p2.sayHello();

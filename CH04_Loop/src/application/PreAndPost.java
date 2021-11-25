@@ -3,8 +3,8 @@ package application;
 public class PreAndPost {
 
 	public static void main(String[] args) {
-		// Αυ°¨Ώ¬»κΐΪ ++ -- ΐ§ΓΌΏ΅ µϋΈ¥ °ζΏμ
-		// µΪΏ΅ ΐΦΐ»°ζΏμ ΈΥΐϊ »ηΏλΗΟ°ν Αυ°¨, AΏ΅ ΐΦΐ»°ζΏμ ΈΥΐϊ Αυ°¨ΗΟ°ν »ηΏλ
+		// μ¦κ°μ—°μ‚°μ ++ -- μ„μ²΄μ— λ”°λ¥Έ κ²½μ°
+		// λ’¤μ— μμ„κ²½μ° λ¨Όμ € μ‚¬μ©ν•κ³  μ¦κ°, μ––μ— μμ„κ²½μ° λ¨Όμ € μ¦κ°ν•κ³  μ‚¬μ©
 		int x = 5;
 		System.out.println(x++);
 		System.out.println(x);

@@ -3,10 +3,10 @@ package application;
 public class printing {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­ (+) , Ãâ·Â
-		String name = "È«±æµ¿";
-		System.out.println("³»ÀÌ¸§Àº " + name);
-		String text = "³ªÀÇ ÀÌ¸§Àº : ";
+		// ë¬¸ìì—´ (+) , ì¶œë ¥
+		String name = "í™ê¸¸ë™";
+		System.out.println("ë‚´ì´ë¦„ì€ " + name);
+		String text = "ë‚˜ì˜ ì´ë¦„ì€ : ";
 		String endOfSentence = ".";
 		
 		System.out.println(text + name + endOfSentence);

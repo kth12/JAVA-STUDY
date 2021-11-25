@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class CheckPassLimit {
 
 	public static void main(String[] args) {
-		// ÆĞ½º¿öµå°¡ Æ²·Áµµ 3¹ø ±âÈ¸¸¦ ÁØ´Ù
-		// ¸ÂÀ¸¸é "Á¢¼Ó½ÂÀÎ"
-		// 3¹ø Æ²¸®¸é "Á¢¼Ó°ÅºÎ"
+		// íŒ¨ìŠ¤ì›Œë“œê°€ í‹€ë ¤ë„ 3ë²ˆ ê¸°íšŒë¥¼ ì¤€ë‹¤
+		// ë§ìœ¼ë©´ "ì ‘ì†ìŠ¹ì¸"
+		// 3ë²ˆ í‹€ë¦¬ë©´ "ì ‘ì†ê±°ë¶€"
 
 		final String USER_PASSWORD = "hello";
 
@@ -17,23 +17,23 @@ public class CheckPassLimit {
 		String password = "";
 		
 		for (int i = 1; i <= 3; i++) {
-			System.out.print("ºñ¹ø ÀÔ·Â > ");
+			System.out.print("ë¹„ë²ˆ ì…ë ¥ > ");
 			password = scanner.nextLine();
 
 			if (password.equals(USER_PASSWORD)) {
-				System.out.println("Á¢¼Ó½ÂÀÎ");
+				System.out.println("ì ‘ì†ìŠ¹ì¸");
 				accessOK = true; 
-				break; // true¸é ºüÁ®³ª°¡°í ºñ¹øÀÔ·Â ¾È³ª¿À°Ô
+				break; // trueë©´ ë¹ ì ¸ë‚˜ê°€ê³  ë¹„ë²ˆì…ë ¥ ì•ˆë‚˜ì˜¤ê²Œ
 			} else {
-				System.out.printf("ºñ¹øÀÌ %d¹ø Æ²¸²\n", i);
+				System.out.printf("ë¹„ë²ˆì´ %dë²ˆ í‹€ë¦¼\n", i);
 			}
 		}
 		scanner.close();
 
 
-		//for¹® ¾ÈÀÇ ¸¶Áö¸· else °¡ false°¡ µÈ »óÅÂ¿¡¼­ if(true){Á¢¼Ó°ÅºÎ} ³ª¿À°Ô
+		//forë¬¸ ì•ˆì˜ ë§ˆì§€ë§‰ else ê°€ falseê°€ ëœ ìƒíƒœì—ì„œ if(true){ì ‘ì†ê±°ë¶€} ë‚˜ì˜¤ê²Œ
 		if (!accessOK) {
-			System.out.println("Á¢¼Ó°ÅºÎ");
+			System.out.println("ì ‘ì†ê±°ë¶€");
 		}
 
 	}

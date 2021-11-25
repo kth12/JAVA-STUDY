@@ -3,24 +3,24 @@ package application;
 public class MultiArray {
 
 	public static void main(String[] args) {
-		// ÀÌÁß¹è¿­[][]
+		// ì´ì¤‘ë°°ì—´[][]
 		String[][] texts = {
-				{"ÇÏ³ª","µÑ","¼Â"}, 	//¹è¿­1°³
-				{"³İ","´Ù¼¸","¿©¼¸"}, 	//¹è¿­2°³
-				{"ÀÏ°ö","¿©´ü","¾ÆÈ©"}	//¹è¿­3°³
+				{"í•˜ë‚˜","ë‘˜","ì…‹"}, 	//ë°°ì—´1ê°œ
+				{"ë„·","ë‹¤ì„¯","ì—¬ì„¯"}, 	//ë°°ì—´2ê°œ
+				{"ì¼ê³±","ì—¬ëŸ","ì•„í™‰"}	//ë°°ì—´3ê°œ
 		};
 
-		for(int i = 0; i<texts.length; i++) {	// ¹è¿­ÀÇ °³¼ö (ÃÑ3°³)
-			System.out.printf("%d¹øÂ° ¹è¿­ %s \n",i,texts[i]);  // ¿Ö ÁÖ¼Ò°¡ ³ª¿À´õ¶ó...
+		for(int i = 0; i<texts.length; i++) {	// ë°°ì—´ì˜ ê°œìˆ˜ (ì´3ê°œ)
+			System.out.printf("%dë²ˆì§¸ ë°°ì—´ %s \n",i,texts[i]);  // ì™œ ì£¼ì†Œê°€ ë‚˜ì˜¤ë”ë¼...
 
-//			String[] inArray = texts[i]; // ¹è¿­À» inArray¿¡ ³Ö±â
+//			String[] inArray = texts[i]; // ë°°ì—´ì„ inArrayì— ë„£ê¸°
 
-			//String[] inArray = texts[i]; // ¹è¿­À» inArray¿¡ ³Ö±â
+			//String[] inArray = texts[i]; // ë°°ì—´ì„ inArrayì— ë„£ê¸°
 
-			for(int j = 0; j<texts[i].length; j++) { // ¹è¿­[0].length --> ÇÏ³ª µÑ ¼Â
+			for(int j = 0; j<texts[i].length; j++) { // ë°°ì—´[0].length --> í•˜ë‚˜ ë‘˜ ì…‹
 				System.out.printf("%s \t",texts[i][j]);
 			}
-			System.out.println(); // µÎ¹ø¤Š for¹®À» ºüÁ®³ª°¡¼­ ´ÙÀ½ÁÙ·Î ³Ñ¾î°¡ Ã¹¹øÂ° for¹®À¸·Î ´Ù½Ã ½ÃÀÛ
+			System.out.println(); // ë‘ë²ˆì¨° forë¬¸ì„ ë¹ ì ¸ë‚˜ê°€ì„œ ë‹¤ìŒì¤„ë¡œ ë„˜ì–´ê°€ ì²«ë²ˆì§¸ forë¬¸ìœ¼ë¡œ ë‹¤ì‹œ ì‹œì‘
 			
 		}
 	}

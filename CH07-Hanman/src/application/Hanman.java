@@ -2,46 +2,46 @@ package application;
 
 import java.util.Scanner;
 public class Hanman {
-	private boolean running = true; // °ÔÀÓÀ» °è¼Ó ÁøÇà
+	private boolean running = true; // ê²Œì„ì„ ê³„ì† ì§„í–‰
 	private Randomword word = new Randomword();
 	private Scanner scanner = new Scanner(System.in);
 	
 	public void run() {
 		do {
-			displayword(); //È­¸é¿¡ ´Ü¾îÇ¥½Ã
-			getUserInput(); // ÀÔ·Â¹ŞÀ½
-			checkUserInput(); // ¸Â´ÂÁö Ã¼Å© (ÀüºÎ ¸ÂÀ¸¸é running = false)
+			displayword(); //í™”ë©´ì— ë‹¨ì–´í‘œì‹œ
+			getUserInput(); // ì…ë ¥ë°›ìŒ
+			checkUserInput(); // ë§ëŠ”ì§€ ì²´í¬ (ì „ë¶€ ë§ìœ¼ë©´ running = false)
 		}while(running);
 	}
 
 	private void displayword() {
-//		 System.out.println("È­¸é¿¡ ´Ü¾îÇ¥½Ã");
-		// 2. ·£´ı ¿öµå °´Ã¼¸¦ »ı¼ºÇØ ·£´ıÀ¸·Î ÇÑ ´Ü¾î¸¦ Ãâ·ÂÇÑ´Ù.
+//		 System.out.println("í™”ë©´ì— ë‹¨ì–´í‘œì‹œ");
+		// 2. ëœë¤ ì›Œë“œ ê°ì²´ë¥¼ ìƒì„±í•´ ëœë¤ìœ¼ë¡œ í•œ ë‹¨ì–´ë¥¼ ì¶œë ¥í•œë‹¤.
 
 		System.out.println(word.toString());
 		
 	}
 
 	private void getUserInput() {
-		// À¯Àú¿¡°Ô ÇÑ ¹®ÀÚ ÀÔ·Â¿ä±¸
-		// ÀÔ·Â¹ŞÀº ¹®ÀÚ¿­¿¡¼­ ÇÑ ¹®ÀÚ¸¦ »Ì¾Æ¼­
-		// Randomword °´Ã¼¿¡ Àü´Ş ( addGuess(¹®ÀÚ) ¸Ş¼Òµå¸¦ ¸¸µéÀÚ)
-		System.out.print("ÇÑ¹®ÀÚ ÀÔ·Â : ");
-		String guess = scanner.nextLine(); // ÀÔ·Â¹ŞÀº ¹®ÀÚ¿­À» guess¿¡ ÀúÀå
-		// ´Ü¾î¿¡¼­ ÀÔ·Â¹ŞÀº ¹®ÀÚ°¡ ÀÖ´ÂÁö È®ÀÌ³»ÇØ¼­ Ä¡¶óÇÏ¤¤´Ù.(´Ü¾î´Â Randomword °½Ã¼ word¸¦ »ç¿ë)
+		// ìœ ì €ì—ê²Œ í•œ ë¬¸ì ì…ë ¥ìš”êµ¬
+		// ì…ë ¥ë°›ì€ ë¬¸ìì—´ì—ì„œ í•œ ë¬¸ìë¥¼ ë½‘ì•„ì„œ
+		// Randomword ê°ì²´ì— ì „ë‹¬ ( addGuess(ë¬¸ì) ë©”ì†Œë“œë¥¼ ë§Œë“¤ì)
+		System.out.print("í•œë¬¸ì ì…ë ¥ : ");
+		String guess = scanner.nextLine(); // ì…ë ¥ë°›ì€ ë¬¸ìì—´ì„ guessì— ì €ì¥
+		// ë‹¨ì–´ì—ì„œ ì…ë ¥ë°›ì€ ë¬¸ìê°€ ìˆëŠ”ì§€ í™•ì´ë‚´í•´ì„œ ì¹˜ë¼í•˜ã„´ë‹¤.(ë‹¨ì–´ëŠ” Randomword ê°¹ì²´ wordë¥¼ ì‚¬ìš©)
 		word.addGuess(guess.charAt(0));
 	}
 	private void checkUserInput() {
-		// System.out.println("¸Â´ÂÁö Ã¼Å©");
-		// °ÔÀÓÁ¾·á È®ÀÎÀ» ÇÏ´Â ¸Ş¼Òµå isCompleted ¸¦ Randomword Å¬·¡½º¿¡ ¸¸µé±â
+		// System.out.println("ë§ëŠ”ì§€ ì²´í¬");
+		// ê²Œì„ì¢…ë£Œ í™•ì¸ì„ í•˜ëŠ” ë©”ì†Œë“œ isCompleted ë¥¼ Randomword í´ë˜ìŠ¤ì— ë§Œë“¤ê¸°
 		if(word.inCompleted()) {
-			System.out.println("Àß¸ÂÃè¾î¿ä!");
-			System.out.println("Á¤´äÀº " + word.toString());
+			System.out.println("ì˜ë§ì·„ì–´ìš”!");
+			System.out.println("ì •ë‹µì€ " + word.toString());
 			running = false;
 		}
 	}
 	/**
-	 * ½ºÄ³³Ê¸¦ ´İ´Â ¸Ş™“µå
+	 * ìŠ¤ìºë„ˆë¥¼ ë‹«ëŠ” ë©”ì†“ë“œ
 	 */
 	public void close() {
 		scanner.close();

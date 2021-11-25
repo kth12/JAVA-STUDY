@@ -3,12 +3,12 @@ package application;
 public class StringEqual {
 
 	public static void main(String[] args) {
-		// µÎ°³ÀÇ ¹®ÀÚ¿­ÀÌ °°ÀºÁö ºñ±³ÇÑ´Ù.
+		// ë‘ê°œì˜ ë¬¸ìì—´ì´ ê°™ì€ì§€ ë¹„êµí•œë‹¤.
 		String t1 = "apple";
 		String t2 = "apple";
 
-		System.out.printf("µÎ°³ÀÇ ¹®ÀÚ¿­ ÀÏÄ¡ : %b \n", t1==t2);
-		System.out.printf("µÎ°³ÀÇ ¹®ÀÚ¿­ ÀÏÄ¡ : %b \n", t1.equals(t2)); //¹®ÀÚ¿­ °°À¸¸é true
+		System.out.printf("ë‘ê°œì˜ ë¬¸ìì—´ ì¼ì¹˜ : %b \n", t1==t2);
+		System.out.printf("ë‘ê°œì˜ ë¬¸ìì—´ ì¼ì¹˜ : %b \n", t1.equals(t2)); //ë¬¸ìì—´ ê°™ìœ¼ë©´ true
 	}
 
 }

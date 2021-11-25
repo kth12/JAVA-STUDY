@@ -5,23 +5,23 @@ import java.util.Scanner;
 public class IfElse {
 
 	public static void main(String[] args) {
-		// ½ºÄ³³Ê
+		// ìŠ¤ìºë„ˆ
 		Scanner scanner = new Scanner(System.in);
 				
-		System.out.println("»ç°úÀÇ °³¼ö´Â?");
+		System.out.println("ì‚¬ê³¼ì˜ ê°œìˆ˜ëŠ”?");
 		int apple = scanner.nextInt();
-		System.out.println("¹Ù³ª³ªÀÇ °³¼ö´Â?");
+		System.out.println("ë°”ë‚˜ë‚˜ì˜ ê°œìˆ˜ëŠ”?");
 		int banana = scanner.nextInt();
-		scanner.close(); //½ºÄ³³Ê Á¾·á(´õÀÌ»ó¾È¾µ¶§)
+		scanner.close(); //ìŠ¤ìºë„ˆ ì¢…ë£Œ(ë”ì´ìƒì•ˆì“¸ë•Œ)
 		
 		
 		if(apple > banana) {
-			System.out.println("»ç°ú°¡ ¹Ù³ª³ª º¸´Ù ¸¹À½");
+			System.out.println("ì‚¬ê³¼ê°€ ë°”ë‚˜ë‚˜ ë³´ë‹¤ ë§ìŒ");
 		}
 		else {
-			System.out.println("¹Ù³ª³ª°¡ »ç°ú º¸´Ù ¸¹À½");
+			System.out.println("ë°”ë‚˜ë‚˜ê°€ ì‚¬ê³¼ ë³´ë‹¤ ë§ìŒ");
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 
 }

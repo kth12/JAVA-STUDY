@@ -3,11 +3,11 @@ package application;
 public class For {
 
 	public static void main(String[] args) {
-		// for¹İº¹¹® for(ÃÊ±â°ª;Á¶°Ç;Áõ°¨){¸í·É¹®;}
+		// forë°˜ë³µë¬¸ for(ì´ˆê¸°ê°’;ì¡°ê±´;ì¦ê°){ëª…ë ¹ë¬¸;}
 //		for (int i = 0; i < 10; i++) {
 //			System.out.println("i : " + i);
 //		}
-		// 1¿¡¼­ 100±îÁö ÇÕ
+		// 1ì—ì„œ 100ê¹Œì§€ í•©
 		int sum = 0;
 		for (int i =1; i<=100; i++) {
 			sum = sum + i;

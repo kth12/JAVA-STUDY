@@ -4,7 +4,7 @@ public class While {
 	
 	public static void main(String[] args) {
 		while(true) {
-		System.out.println("Çï·Î¿ì ¿ùµå");
+		System.out.println("í—¬ë¡œìš° ì›”ë“œ");
 		}
 	}
 

@@ -3,15 +3,15 @@ package application;
 public class ContrlCharacter {
 
 	public static void main(String[] args) {
-		// Á¦¾î¹®ÀÚ : \n,\t;
+		// ì œì–´ë¬¸ì : \n,\t;
 		System.out.println("===============");
-		System.out.println("\t\tÅÇ¸¸Å­ ¶ç¾îÁÜ");
+		System.out.println("\t\tíƒ­ë§Œí¼ ë„ì–´ì¤Œ");
 		System.out.println("===============");
-		System.out.println("ÀÚ¹Ù¸¦\n¹è¿ì°í\nÀÖ½À´Ï´Ù.\n");
+		System.out.println("ìë°”ë¥¼\në°°ìš°ê³ \nìˆìŠµë‹ˆë‹¤.\n");
 		
-		System.out.print("ÀÌ°ÍÀº");
-		System.out.print("ÁÙÀ»");
-		System.out.print("¾È³»¸³´Ï´Ù");
+		System.out.print("ì´ê²ƒì€");
+		System.out.print("ì¤„ì„");
+		System.out.print("ì•ˆë‚´ë¦½ë‹ˆë‹¤");
 		
 		
 	}

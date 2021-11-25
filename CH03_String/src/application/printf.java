@@ -3,15 +3,15 @@ package application;
 public class printf {
 
 	public static void main(String[] args) {
-		// printfÃâ·Â
+		// printfì¶œë ¥
 
 		int age = 25;
-		String addr = "ºÎ»êÁø±¸";
+		String addr = "ë¶€ì‚°ì§„êµ¬";
 		double pi =3.14;
 		
-		System.out.printf("³» ³ªÀÌ´Â %d»ì ÀÔ´Ï´Ù.\n", age);
-		System.out.printf("³» ³ªÀÌ´Â %d»ì ÀÌ°í %s¿¡ »ì°íÀÖ½À´Ï´Ù.\n", age,addr);
-		System.out.printf("ÆÄÀÌÀÇ °ªÀº : %.2f",pi); // %.2f ¼Ò¼öÁ¡ 2ÀÚ¸®±îÁö
+		System.out.printf("ë‚´ ë‚˜ì´ëŠ” %dì‚´ ì…ë‹ˆë‹¤.\n", age);
+		System.out.printf("ë‚´ ë‚˜ì´ëŠ” %dì‚´ ì´ê³  %sì— ì‚´ê³ ìˆìŠµë‹ˆë‹¤.\n", age,addr);
+		System.out.printf("íŒŒì´ì˜ ê°’ì€ : %.2f",pi); // %.2f ì†Œìˆ˜ì  2ìë¦¬ê¹Œì§€
 	}
 
 }

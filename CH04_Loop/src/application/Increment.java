@@ -3,7 +3,7 @@ package application;
 public class Increment {
 
 	public static void main(String[] args) {
-		// Áõ°¡ °¨¼Ò ¿¬»êÀÚ
+		// ì¦ê°€ ê°ì†Œ ì—°ì‚°ì
 		int count = 0;
 		
 		count = count + 1;
@@ -15,7 +15,7 @@ public class Increment {
 		++count;
 		System.out.println(count);
 
-		// À§¿Í°°ÀÌ 4°¡Áö ¹æ¹ıÀ¸·Î 1¾¿ °¨¼Ò ½ÃÄÑ¶ó.
+		// ìœ„ì™€ê°™ì´ 4ê°€ì§€ ë°©ë²•ìœ¼ë¡œ 1ì”© ê°ì†Œ ì‹œì¼œë¼.
 		count = count - 1;
 		System.out.println(count);
 		count -= 1;

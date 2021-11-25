@@ -3,11 +3,11 @@ package parameter;
 public class App {
 
 	public static void main(String[] args) {
-		// ¸Å°³º¯¼ö(ÆÄ¶ó¹ÌÅÍ)°¡ ÀÖ´Â ¸Ş¼Òµå »ç¿ë
+		// ë§¤ê°œë³€ìˆ˜(íŒŒë¼ë¯¸í„°)ê°€ ìˆëŠ” ë©”ì†Œë“œ ì‚¬ìš©
 		Calculater cal = new Calculater();
 		int number = 5;
 		int result = cal.square(number);
-		// ¹æ¹ı À§¾Æ·¡ µÎ°¡Áö
+		// ë°©ë²• ìœ„ì•„ë˜ ë‘ê°€ì§€
 //		int result = cal.square(5);
 //		System.out.println(result);
 		

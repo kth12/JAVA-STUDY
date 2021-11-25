@@ -3,26 +3,26 @@ package windowProgramming;
 public class App {
 
 	public static void main(String[] args) {
-		// À©µµ¿ì °´Ã¼¸¦ »ı¼º 
-		// set ¸Ş¼Òµå·Î °ªÀ» ÀÔ·ÂÇÏ°í get¸Ş¼Òµå·Î °ªÀ» Ãâ·ÂÇÏ¶ó
-		// ¼³Á¤ À©µµ¿ìÃ¢ÀÇ °¡·Î±æÀÌ 300 ¼¼·Î±æÀÌ 600
-		// ÇöÀç º¸ÀÌµµ·Ï true, top 200, left 400
+		// ìœˆë„ìš° ê°ì²´ë¥¼ ìƒì„± 
+		// set ë©”ì†Œë“œë¡œ ê°’ì„ ì…ë ¥í•˜ê³  getë©”ì†Œë“œë¡œ ê°’ì„ ì¶œë ¥í•˜ë¼
+		// ì„¤ì • ìœˆë„ìš°ì°½ì˜ ê°€ë¡œê¸¸ì´ 300 ì„¸ë¡œê¸¸ì´ 600
+		// í˜„ì¬ ë³´ì´ë„ë¡ true, top 200, left 400
 		
 		Window w1 = new Window();
 		w1.setWidth(300);
-		System.out.println("°¡·Î±æÀÌ "+w1.getWidth());
+		System.out.println("ê°€ë¡œê¸¸ì´ "+w1.getWidth());
 		
 		w1.setHeight(600);
-		System.out.println("¼¼·Î±æÀÌ "+w1.getHeigth());
+		System.out.println("ì„¸ë¡œê¸¸ì´ "+w1.getHeigth());
 		
 		w1.setIsVisible(true);
-		System.out.println("ÇöÀçº¸ÀÓ "+w1.getIsVisible());
+		System.out.println("í˜„ì¬ë³´ì„ "+w1.getIsVisible());
 		
 		w1.setTop(200);
-		System.out.println("À§Ä¡top "+w1.getTop());
+		System.out.println("ìœ„ì¹˜top "+w1.getTop());
 		
 		w1.setLeft(400);
-		System.out.println("À§Ä¡left "+w1.getLeft());
+		System.out.println("ìœ„ì¹˜left "+w1.getLeft());
 	}
 
 }

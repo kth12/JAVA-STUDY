@@ -3,9 +3,9 @@ package exam1;
 public class App {
 
 	public static void main(String[] args) {
-		// 1. ¸Ş´º °´Ã¼ ¸¸µé±â 2.display() ¸Ş¼Òµå »ç¿ëÇØ¼­ ¸Ş´º Ãâ·ÂÇÏ±â
+		// 1. ë©”ë‰´ ê°ì²´ ë§Œë“¤ê¸° 2.display() ë©”ì†Œë“œ ì‚¬ìš©í•´ì„œ ë©”ë‰´ ì¶œë ¥í•˜ê¸°
 		
-		Menu p1 = new Menu(); // MenuÅ¬·¡½º·Î Menu°´Ã¼ ¸¸µé±â
+		Menu p1 = new Menu(); // Menuí´ë˜ìŠ¤ë¡œ Menuê°ì²´ ë§Œë“¤ê¸°
 		
 		p1.display();
 

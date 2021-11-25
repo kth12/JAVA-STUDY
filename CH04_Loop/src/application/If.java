@@ -5,26 +5,26 @@ import java.util.Scanner;
 public class If {
 
 	public static void main(String[] args) {
-		// ½ºÄ³³Ê
+		// ìŠ¤ìºë„ˆ
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("»ç°úÀÇ °³¼ö´Â?");
+		System.out.println("ì‚¬ê³¼ì˜ ê°œìˆ˜ëŠ”?");
 		int apple = scanner.nextInt();
-		System.out.println("¹Ù³ª³ªÀÇ °³¼ö´Â?");
+		System.out.println("ë°”ë‚˜ë‚˜ì˜ ê°œìˆ˜ëŠ”?");
 		int banana = scanner.nextInt();
-		scanner.close(); //½ºÄ³³Ê Á¾·á(´õÀÌ»ó¾È¾µ¶§)
-//		// IF Á¶°Ç¹®
+		scanner.close(); //ìŠ¤ìºë„ˆ ì¢…ë£Œ(ë”ì´ìƒì•ˆì“¸ë•Œ)
+//		// IF ì¡°ê±´ë¬¸
 //		int apple =10;
 //		int banana = 5;
 		
-		//ifÁ¶°ÇÀÌ ÂüÀÏ°æ¿ì {}¾ÈÀÇ ¸í·É¹®À» ½ÇÇàÇÑ´Ù.
+		//ifì¡°ê±´ì´ ì°¸ì¼ê²½ìš° {}ì•ˆì˜ ëª…ë ¹ë¬¸ì„ ì‹¤í–‰í•œë‹¤.
 		if(apple > banana) {
-			System.out.println("»ç°ú°¡ ¹Ù³ª³ª º¸´Ù ¸¹À½");
+			System.out.println("ì‚¬ê³¼ê°€ ë°”ë‚˜ë‚˜ ë³´ë‹¤ ë§ìŒ");
 		}
 		if(apple < banana) {
-			System.out.println("¹Ù³ª³ª°¡ »ç°ú º¸´Ù ¸¹À½");
+			System.out.println("ë°”ë‚˜ë‚˜ê°€ ì‚¬ê³¼ ë³´ë‹¤ ë§ìŒ");
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 
 }

@@ -1,19 +1,19 @@
 package application;
 
-import java.util.Scanner; //java.util ÆĞÅ°Áö ¾È¿¡ ScannerÅ¬·¡½º¸¦ ºÒ·¯¿Í¼­ »ç¿ë°¡´É
+import java.util.Scanner; //java.util íŒ¨í‚¤ì§€ ì•ˆì— Scannerí´ë˜ìŠ¤ë¥¼ ë¶ˆëŸ¬ì™€ì„œ ì‚¬ìš©ê°€ëŠ¥
 
 public class UserInput {
 
 	public static void main(String[] args) {
-		// ÀÔ·ÂÀ» ¹Ş´Â Å¬·¡½º
-		Scanner scanner = new Scanner(System.in); //½ºÄ³³Ê °´Ã¼¸¦ ¼±¾ğ
+		// ì…ë ¥ì„ ë°›ëŠ” í´ë˜ìŠ¤
+		Scanner scanner = new Scanner(System.in); //ìŠ¤ìºë„ˆ ê°ì²´ë¥¼ ì„ ì–¸
 
-		System.out.print("¿Âµµ¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä");
+		System.out.print("ì˜¨ë„ë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš”");
 
-		double c =scanner.nextDouble(); //¼·¾¾ º¯¼ö cÃÊ±â°ªÀ» 25
-		double f = (c * 9/5) + 32; //È­¾¾ º¯¼ö´Â f
+		double c =scanner.nextDouble(); //ì„­ì”¨ ë³€ìˆ˜ cì´ˆê¸°ê°’ì„ 25
+		double f = (c * 9/5) + 32; //í™”ì”¨ ë³€ìˆ˜ëŠ” f
 		
-		System.out.printf("¼·¾¾ %.1f´Â È­¾¾ %.1f ÀÌ´Ù",c,f);
+		System.out.printf("ì„­ì”¨ %.1fëŠ” í™”ì”¨ %.1f ì´ë‹¤",c,f);
 	}
 
 }

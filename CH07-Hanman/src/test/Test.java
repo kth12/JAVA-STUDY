@@ -1,4 +1,4 @@
-package test; // Å×½ºÆ®¿ë ÆĞÅ°Áö
+package test; // í…ŒìŠ¤íŠ¸ìš© íŒ¨í‚¤ì§€
 
 import java.util.Random;
 import application.Randomword;
@@ -8,13 +8,13 @@ public class Test {
 		Randomword r = new Randomword();
 //		r.getWords();
 //		System.out.println(r.toString());
-//		·£´ıÀ¸·Î ´Ü¾î¸¦ °¡Á®¿À´Â ¹æ¹ı?
+//		ëœë¤ìœ¼ë¡œ ë‹¨ì–´ë¥¼ ê°€ì ¸ì˜¤ëŠ” ë°©ë²•?
 		Random random = new Random();
 		
-		String[] words = {"Æë¼ö","¼Ò","°í¾çÀÌ","¶óÀÌ¾ğ","´Á´ë"};
+		String[] words = {"í­ìˆ˜","ì†Œ","ê³ ì–‘ì´","ë¼ì´ì–¸","ëŠ‘ëŒ€"};
 		
 		for(int i =0; i<100; i++ ) {
-			int randomIndex = random.nextInt(words.length); // 0~(¹è¿­°¹¼ö-1)·£´ıÀ¸·Î Ãâ·Â
+			int randomIndex = random.nextInt(words.length); // 0~(ë°°ì—´ê°¯ìˆ˜-1)ëœë¤ìœ¼ë¡œ ì¶œë ¥
 			System.out.println(words[randomIndex]);
 		}
 	}

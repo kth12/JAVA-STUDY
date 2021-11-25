@@ -2,11 +2,11 @@ package ConvertingTemp;
 
 public class App {
 	public static void main(String[] args) {
-	// ¼·¾¾¿Âµµ¸¦ È­¾¾¿Âµµ·Î º¯È¯ (oµµ¾¾ * 9/5) + 32 =32µµF
+	// ì„­ì”¨ì˜¨ë„ë¥¼ í™”ì”¨ì˜¨ë„ë¡œ ë³€í™˜ (oë„ì”¨ * 9/5) + 32 =32ë„F
 	
-		double c =25; //¼·¾¾ º¯¼ö cÃÊ±â°ªÀ» 25
-		double f = (c * 9/5) + 32; //È­¾¾ º¯¼ö´Â f
+		double c =25; //ì„­ì”¨ ë³€ìˆ˜ cì´ˆê¸°ê°’ì„ 25
+		double f = (c * 9/5) + 32; //í™”ì”¨ ë³€ìˆ˜ëŠ” f
 		
-		System.out.println("¼·¾¾ " + c + "´Â È­¾¾ " + f + "ÀÌ´Ù");
+		System.out.println("ì„­ì”¨ " + c + "ëŠ” í™”ì”¨ " + f + "ì´ë‹¤");
 	}
 }

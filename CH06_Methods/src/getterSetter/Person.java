@@ -1,24 +1,24 @@
 package getterSetter;
 
 public class Person {
-	// private´Â °°Àº Å¬·¡½º¿¡¼­¸¸ Á¢±Ù°¡´É
-	private String name; // this nameÀ» ÀÇ¹Ì
+	// privateëŠ” ê°™ì€ í´ë˜ìŠ¤ì—ì„œë§Œ ì ‘ê·¼ê°€ëŠ¥
+	private String name; // this nameì„ ì˜ë¯¸
 	private int age;
 	
-	// publicÀº ´Ù¸¥ Å¬·¡½º¿¡¼­ ¾µ¼öÀÖÀ½
-	// setÀº °ªÀ» ÀÔ·ÂÇÏ´Â ¸Ş¼Òµå
-	public void setName(String name) { //p1.setName("Æë¼ö"); ¸®ÅÏÇÏÁö ¾Ê¾Æ¼­ void
-		this.name = name; // ÀÌ¶§ this´Â ÀÎ½ºÅÏ½º ÀÇ¹Ì
+	// publicì€ ë‹¤ë¥¸ í´ë˜ìŠ¤ì—ì„œ ì“¸ìˆ˜ìˆìŒ
+	// setì€ ê°’ì„ ì…ë ¥í•˜ëŠ” ë©”ì†Œë“œ
+	public void setName(String name) { //p1.setName("í­ìˆ˜"); ë¦¬í„´í•˜ì§€ ì•Šì•„ì„œ void
+		this.name = name; // ì´ë•Œ thisëŠ” ì¸ìŠ¤í„´ìŠ¤ ì˜ë¯¸
 	}
 	
-	// get¸Ş¼Òµå´Â °ªÀ» ¸®ÅÏÇÏ´Â ¸Ş¼Òµå
+	// getë©”ì†Œë“œëŠ” ê°’ì„ ë¦¬í„´í•˜ëŠ” ë©”ì†Œë“œ
 	public String getName() {
 		return name;
 	}
 	
 	
 	public void setAge(int age) {
-		// System.out.println(this); // ÁÖ¼Ò (p1,p2ÀÇ ÁÖ¼Ò°ªÀº ´Ù¸£´Ù)
+		// System.out.println(this); // ì£¼ì†Œ (p1,p2ì˜ ì£¼ì†Œê°’ì€ ë‹¤ë¥´ë‹¤)
 		this.age = age;
 	}
 	

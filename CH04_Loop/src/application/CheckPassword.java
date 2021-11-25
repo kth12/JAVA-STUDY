@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class CheckPassword {
 
 	public static void main(String[] args) {
-		// ÁöÁ¤µÈ ÆĞ½º¿öµå ÀÔ·Â½Ã 'Á¢¼Ó½ÂÀÎ' ¾Æ´Ï¸é 'Á¢¼ÓºÒ°¡'
+		// ì§€ì •ëœ íŒ¨ìŠ¤ì›Œë“œ ì…ë ¥ì‹œ 'ì ‘ì†ìŠ¹ì¸' ì•„ë‹ˆë©´ 'ì ‘ì†ë¶ˆê°€'
 		final String USER_PASSWORD = "hello";
 		
-		System.out.print("ºñ¹ø ÀÔ·Â > ");
+		System.out.print("ë¹„ë²ˆ ì…ë ¥ > ");
 		
 		Scanner scanner = new Scanner(System.in);
 		String password = scanner.nextLine();
 		scanner.close();
 		
 		if (password.equals(USER_PASSWORD)) {
-			System.out.println("Á¢¼Ó½ÂÀÎ");
+			System.out.println("ì ‘ì†ìŠ¹ì¸");
 		}else {
-			System.out.println("Á¢¼ÓºÒ°¡");
+			System.out.println("ì ‘ì†ë¶ˆê°€");
 			
 		}
 	}

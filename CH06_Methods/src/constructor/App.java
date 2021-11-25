@@ -3,21 +3,21 @@ package constructor;
 public class App {
 
 	public static void main(String[] args) {
-		// »ı¼ºÀÚ : Å¬·¡½ºÀÇ Æ¯º°ÇÑ ¸Ş¼Òµå
+		// ìƒì„±ì : í´ë˜ìŠ¤ì˜ íŠ¹ë³„í•œ ë©”ì†Œë“œ
 		Person p1 = new Person();
-		// ±âº»»ı¼ºÀÚ´Â »ı·«°¡´É
-		p1.setName("Æë¼ö");
+		// ê¸°ë³¸ìƒì„±ìëŠ” ìƒëµê°€ëŠ¥
+		p1.setName("í­ìˆ˜");
 		p1.setHeight(120.0);
 		Person p2 = new Person();
-		p2.setName("±æµ¿");
+		p2.setName("ê¸¸ë™");
 		p2.setHeight(172.5);
 		Person p3 = new Person();
-//		p3.setName("¶óÀÌ¾ğ");		// ÀÔ·ÂÀ» ¾ÈÇÏ¸é ±âº»»ı¼ºÀÚÀÇ public Person(){ÃÊ±â°ª} ¼³Á¤ÇÑ°Ô ³ª¿Â´Ù
+//		p3.setName("ë¼ì´ì–¸");		// ì…ë ¥ì„ ì•ˆí•˜ë©´ ê¸°ë³¸ìƒì„±ìì˜ public Person(){ì´ˆê¸°ê°’} ì„¤ì •í•œê²Œ ë‚˜ì˜¨ë‹¤
 //		p3.setHeight(165.5);
 		
-		System.out.printf("ÀÌ¸§ : %s, Å° : %.1f \n",p1.getName(),p1.getHeight());
-		System.out.printf("ÀÌ¸§ : %s, Å° : %.1f \n",p2.getName(),p2.getHeight());
-		System.out.printf("ÀÌ¸§ : %s, Å° : %.1f \n",p3.getName(),p3.getHeight());
+		System.out.printf("ì´ë¦„ : %s, í‚¤ : %.1f \n",p1.getName(),p1.getHeight());
+		System.out.printf("ì´ë¦„ : %s, í‚¤ : %.1f \n",p2.getName(),p2.getHeight());
+		System.out.printf("ì´ë¦„ : %s, í‚¤ : %.1f \n",p3.getName(),p3.getHeight());
 	}
 
 }

@@ -3,20 +3,20 @@ package application;
 public class App {
 
 	public static void main(String[] args) {
-		// ½ºÅÂÆ½ º¯¼ö´Â Å¬·¡½º¸í.º¯¼ö·Î °´Ã¼¸¦ »ı¼º¾øÀÌ Å¬·¡½º ¸í¸¸ °¡Áö°í»ç¿ë
+		// ìŠ¤íƒœí‹± ë³€ìˆ˜ëŠ” í´ë˜ìŠ¤ëª….ë³€ìˆ˜ë¡œ ê°ì²´ë¥¼ ìƒì„±ì—†ì´ í´ë˜ìŠ¤ ëª…ë§Œ ê°€ì§€ê³ ì‚¬ìš©
 		System.out.println(Cat.FOOD);
 		System.out.println(Math.PI);
 		
 		System.out.println(Cat.count); //0
-		Cat cat1 = new Cat("¸¶Æ¿´Ù");
+		Cat cat1 = new Cat("ë§ˆí‹¸ë‹¤");
 		System.out.println(Cat.getCount()); //1
-		Cat cat2 = new Cat("¶óÀÌ¾ğ");
+		Cat cat2 = new Cat("ë¼ì´ì–¸");
 		System.out.println(Cat.getCount()); //2
 		
 		
 		System.out.println(cat1.toString());
 		System.out.println(cat2.toString());
-		Cat cat3 = new Cat("¿ï¹ö¸°");
+		Cat cat3 = new Cat("ìš¸ë²„ë¦°");
 		System.out.println(Cat.getCount());
 		System.out.println(cat3.toString());
 	}
