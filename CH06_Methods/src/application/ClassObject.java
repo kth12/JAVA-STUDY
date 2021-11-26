@@ -3,6 +3,9 @@ package application;
 // 하나의 파일에 여러개의 클래스를 만들 수 있다 (앞에 public을 쓰면 안됨)
 class Person {
 	String name; // 인스턴스 변수
+
+
+	
 }
 
 // public class는 한 파일에 하나만 생성가능, 파일이름과 같음
@@ -14,6 +17,7 @@ public class ClassObject {
 		Person p1 = null;// 참조변수 펄슨 클래스 타입 p1선언, 초기값 없음
 		System.out.println(p1);
 		p1 = new Person(); // Person의 실제 객체를 생성하여 그 주소값을 p1에 대입
+		
 		System.out.println(p1); // 주소값 나옴 application.Person@606d8acf 
 
 		p1.name = "펭수";
