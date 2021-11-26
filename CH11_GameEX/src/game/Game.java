@@ -8,7 +8,7 @@ import game.objects.*;
 
 public class Game {
 	
-	GameObject[] objects = {new Scissors(),new Rock(), new Paper() };
+	GameObject[] objects = {new Scissors(), new Rock(), new Paper() };
 	Random random = new Random();
 	Scanner scanner = new Scanner(System.in);
 	
@@ -20,9 +20,9 @@ public class Game {
 			// 유저의 선택
 			System.out.println("가위(0),바위(1),보(2) 중 숫자로 선택 : ");
 			
-			 // 0,1,2 랜덤
+			// 0,1,2 랜덤
 			GameObject ob1 = objects[scanner.nextInt()]; // 나의 가위바위보 값
-			GameObject ob2 = objects[random.nextInt(objects.length)];
+			GameObject ob2 = objects[random.nextInt(objects.length)]; // 컴퓨터의 값
 			
 			System.out.println("당신의 선택은 : " + ob1.getName()); // 오버라이드를해서 .toString() 생략?
 			System.out.println("컴퓨터의 선택은 : " + ob2.getName());

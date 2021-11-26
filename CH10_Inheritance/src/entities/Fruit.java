@@ -5,6 +5,6 @@ public class Fruit {
 	
 	@Override
 	public String toString() {
-		return "Fruit [id =" + id + "]";
+		return "Fruit [아이디 =" + id + "]";
 	}
 }
