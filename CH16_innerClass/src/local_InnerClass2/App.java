@@ -21,18 +21,22 @@ public class App {
 	private void run() {
 		//클래스안에 메소드 클래스
 		
-		class Printer implements Runnable{
-//			public void print() {
-//				System.out.println(name); //내부클래스는 상위클래스의 변수를사용가능
+//		class Printer implements Runnable{
+////			public void print() {
+////				System.out.println(name); //내부클래스는 상위클래스의 변수를사용가능
+////			}
+////			
+//			@Override
+//			public void run() {
+//				System.out.println(name);
 //			}
-//			
-			@Override
+//		}
+		// new Printer().print();
+		ScheduledExecutorService service = Executors.newScheduledThreadPool(1);
+		service.scheduleAtFixedRate(new Runnable() {
 			public void run() {
 				System.out.println(name);
 			}
-		}
-		// new Printer().print();
-		ScheduledExecutorService service = Executors.newScheduledThreadPool(1);
-		service.scheduleAtFixedRate(new Printer(), 0, 1L, TimeUnit.SECONDS);
+		},0, 1L, TimeUnit.SECONDS);
 	}
 }
