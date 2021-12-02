@@ -4,6 +4,7 @@ package application;
 class Person {
 	String name; // 인스턴스 변수
 
+	
 
 	
 }
